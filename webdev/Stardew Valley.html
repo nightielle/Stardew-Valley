@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stardew Valley</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url("assets/images/bg.png");
+      background-size: cover;
+      background-attachment: fixed;
+      color: white;
+    }
+
+    header {
+      background-color: #59C9F1;
+      padding: 10px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color:black;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      background-color: rgba(124, 12, 12, 0.5);
+      border-radius: 20px;
+      margin: 20px auto;
+      width: 90%;
+      padding: 20px;
+    }
+
+    .feature {
+      display: flex;
+      background-color:#151152;
+      border-radius: 20px;
+      overflow: hidden;
+      align-items: center;
+    }
+
+    .feature img {
+      width: 20%;
+      height: auto;
+    }
+
+    .feature-text {
+      padding: 20px;
+    }
+
+    .feature-text button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      border: none;
+      background-color: white;
+      color: #333;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      background-color: #6B3710;
+      border-radius: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 20%;
+      border-radius: 5px;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      background-color: #DDA059;
+      border-radius: 20px;
+      padding: 20px;
+    }
+
+    .footer img {
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    .footer .links, .footer .quote {
+      color: white;
+    }
+
+    .quote {
+      font-style: italic;
+      max-width: 300px;
+    }
+  </style>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header>
+    <img src="assets/images/logo.png" alt="Stardew" height="40">
+    <nav>
+        <nav class="nav-bar">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">INFO</a>
+          </nav>
+  </header>
+
+  <div class="section feature">
+    <img src="assets/images/main.png" alt="Main Image">
+    <div class="feature-text">
+      <h3>You're moving to the Valley...</h3>
+      <p>You've inherited your grandfather's old farm plot in Stardew Valley.
+        Armed with hand-me-down tools and a few coins, you set out to begin your new life!</p>
+      <button>Read more</button>
+    </div>
+  </div>
+
+  <div class="section gallery">
+    <img src="assets/images/characters.png" alt="characters">
+    <img src="assets/images/game.png" alt="game">
+    <img src="assets/images/start.png" alt="start">
+  </div>
+
+  <div class="section footer">
+    <div style="display: flex; gap: 15px; align-items: center;">
+      <img src="assets/images/footer.png" alt="Footer Image">
+      <div class="links">
+        <strong>Quick Links</strong><br>
+        Home<br>
+        About<br>
+        Contact<br>
+        Info
+      </div>
+    </div>
+    <div class="quote" style="text-align: center; margin: auto;">
+      <strong>Stardew Valley</strong><br>
+      Features<br>
+    Create the farm of your dreams: Turn your overgrown fields into a lively and bountiful farm!<br>
+    and more.... <br>
+    </div>
+  </div>
+
+</body>
+</html>
